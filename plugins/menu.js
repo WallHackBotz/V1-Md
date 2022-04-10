@@ -29,27 +29,25 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-┏━━━ꕥ〔 *${namabot}* 〕ꕥ━⬣
-┃✾ Hai, %name!
-┃
-┃✾ Tersisa *%limit Limit*
-┃✾ Role *%role*
-┃✾ Level *%level (%exp / %maxexp)* 
-┃✾ [%xp4levelup]
-┃✾ %totalexp XP secara Total
-┗━ꕥ
-┏━ꕥ 
-┃✾ Hari : *%week %weton* 
-┃✾ Tanggal : *%date*
-┃✾ Tanggal Islam : *%dateIslamic*
-┃✾ Jam : *%time Wib*
-┗━ꕥ
-┏━ꕥ
-┃✾ Uptime: *%uptime (%muptime)*
-┃✾ Database: %rtotalreg dari %totalreg
-┃✾ Youtube:
-┃✾ https://pastelink.net/v20Md
-┗━━━━━━ꕥ
+╭─❒「 *${namabot}* 」
+├ %name!
+├
+├ Tersisa *%limit Limit*
+├ Role *%role*
+├ Level *%level (%exp / %maxexp)* 
+├ [%xp4levelup]
+├ %totalexp XP secara Total
+╰❒
+╭─❒
+├ Hari : *%week %weton* 
+├ Tanggal : *%date*
+├ Tanggal Islam : *%dateIslamic*
+├ Jam : *%time Wib*
+╰❒
+╭─❒
+├ Uptime: *%uptime (%muptime)*
+├ Database: %rtotalreg dari %totalreg
+╰❒
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
   body: '│ ⎙ %cmd %islimit %isPremium',
@@ -176,27 +174,27 @@ let handler = async (m, { conn, usedPrefix: _p, command }) => {
              {
              callButton: {
                displayText: '𝚙𝚑𝚘𝚗𝚎 𝚗𝚞𝚖𝚋𝚎𝚛',
-               PhoneNumber: '6288279268363'
+               PhoneNumber: '62895328255152'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',
+               displayText: '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁'
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '𝙶𝙴𝚃 𝙱𝙾𝚃',
+               displayText: 'Donasi',
                id: '.donasi',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'YukiBot 𝚝𝚎𝚊𝚖',
+               displayText: 'Rrsszxx 𝚝𝚎𝚊𝚖',
                id: '.tqto',
              }
            }]

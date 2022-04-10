@@ -21,7 +21,7 @@ let premium = `
  └✅ Premium User 
  └❎ Add Bot to Group 
    └  ▹  *Rp. 5.000*
-     └ Expired 3 hari
+     └ Expired 30 hari
  └ Order | hub : owner
 `
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -34,7 +34,7 @@ let premium = `
            hydratedButtons: [{
              urlButton: {
                displayText: 'DONASI',
-               url: 'https://saweria.co/raraharsita2'
+               url: 'https://saweria.co/Rrsszxx'
              }
 
            },

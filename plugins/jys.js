@@ -13,10 +13,9 @@ let esce = `
 Hai Sayangku ${ye} Lagi Nyari Sc Botku Ya:v
 
 Nih Link Sc Nya Dibawah :
-https://pastelink.net/v20Md
+Tahap Pengerjaan Ya kakek
 
-_*Jangan Lupa Di Like Dan Subscribe Tod...!!!*_
-_*Gak Subscribe Gak Work Njingg...!!!*_`
+_*Sabar Yak Ajg Lagi Gw kerjain Yak!!!*_`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {

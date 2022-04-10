@@ -29,7 +29,7 @@ var seconds = Math.floor(seconds % 60);
 return `${pad(hours)}Jam ${pad(minutes)}Menit ${pad(seconds)}Detik`
 }
 runtime = process.uptime()
-          teks = `𝑲𝒊𝒏𝒈 𝑶𝒇 𝑩𝒆𝒂𝒓 𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍`// \n\n${kyun(runtime)}`
+          teks = `Rrsszxx Official`// \n\n${kyun(runtime)}`
           run = `${kyun(runtime)}`
           var itsme = `0@s.whatsapp.net`
           var split = `teks`
@@ -85,27 +85,25 @@ runtime = process.uptime()
           let babi = await fetch(`https://api.lolhuman.xyz/api/random/quotes?apikey=${bearkey}`)
           let quote = babi.result
           let jawab = `
-┏━━━ꕥ〔 *${namabot}* 〕ꕥ━⬣
-┃✾ Hai, ${pushname2}!
-┃
-┃✾ Tersisa *${limit} Limit*
-┃✾ Role *${role}*
-┃✾ Level *${level}* 
-┃✾ XP: *TOTAL ${exp} (${exp - min} / ${xp})*
-┗━ꕥ
-┏━ꕥ 
-┃✾ Hari : *${week} ${weton}* 
-┃✾ Tanggal : *${date}*
-┃✾ Tanggal Islam : *${dateIslamic}*
-┃✾ Jam : *${time} Wib*
-┗━ꕥ
-┏━ꕥ
-┃✾ Uptime: *${uptime} (${muptime})*
-┃✾ Database: ${rtotalreg} dari ${totalreg}
-┃✾ Youtube:
-┃✾ https://pastelink.net/v20Md
-┗━━━━━━ꕥ
-━━━ꕥ〔 _*Quotes Harian*_ 〕ꕥ━⬣
+╭─❒「 *${namabot}* 」
+├ Hai, ${pushname2}!
+├
+├ Tersisa *${limit} Limit*
+├ Role *${role}*
+├ Level *${level}* 
+├ XP: *TOTAL ${exp} (${exp - min} / ${xp})*
+╰❒
+╭─❒
+├ Hari : *${week} ${weton}* 
+├ Tanggal : *${date}*
+├ Tanggal Islam : *${dateIslamic}*
+├ Jam : *${time} Wib*
+╰❒
+╭─❒
+├ Uptime: *${uptime} (${muptime})*
+├ Database: ${rtotalreg} dari ${totalreg}
+╰❒
+❒「 *Quotes Harian* 」❒
 “${pickRandom(global.quotes)}”`.trim()
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
@@ -117,14 +115,14 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
            hydratedButtons: [{
              urlButton: {
                displayText: 'Link Script',
-               url: 'https://pastelink.net/v20Md',
+               url: 'https://github.com',
              }
 
            },
                {
              urlButton: {
                displayText: 'Link Group',
-              url : 'https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL',
+              url : 'https://chat.whatsapp.com/BARZi2AR4P3Lu8Mq80eXjf',
              }
 
            },

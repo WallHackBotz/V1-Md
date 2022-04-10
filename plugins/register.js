@@ -8,8 +8,8 @@ let handler = async function (m, { text, usedPrefix, command }) {
   if (!name) throw 'Nama tidak boleh kosong (Alphanumeric)'
   if (!age) throw 'Umur tidak boleh kosong (Angka)'
   age = parseInt(age)
-  if (age > 30) throw 'Lu dah tua anjing'
-  if (age < 5) throw 'Mau diban?'
+  if (age > 30) throw 'Umur beliau Sangad Tua'
+  if (age < 5) throw 'Seriusan Lah anj'
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
@@ -20,9 +20,9 @@ let handler = async function (m, { text, usedPrefix, command }) {
 ━━━━ 「 *Successful Registration* 」━━━━
 
 ╭─• 〘 INFO 〙
-│➥ Nama: ${name}
-│➥ Umur: ${age} Tahun
-│➥ Hadiah: ${prems.includes(who.split`@`[0]) ? '✅ Silahkan chat owner untuk claim hadiah' : '❌ Bukan User Premium'}
+├ Nama: ${name}
+├ Umur: ${age} Tahun
+├Hadiah: ${prems.includes(who.split`@`[0]) ? '✅ Silahkan chat owner untuk claim hadiah' : '❌ Bukan User Premium'}
 ╰──────•
 
 Ketik ${usedPrefix} untuk mendapatkan SERIAL NUMBER\n
